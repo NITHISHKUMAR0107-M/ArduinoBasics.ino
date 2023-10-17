@@ -1,0 +1,128 @@
+int pin2=2;
+int pin3=3;
+int pin4=4;
+int pin5=5;
+
+void setup()
+{
+pinMode(pin2,OUTPUT);
+pinMode(pin3,OUTPUT);
+pinMode(pin4,OUTPUT);
+pinMode(pin5,OUTPUT);
+}
+
+void loop()
+{
+//value 0
+
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 1
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,HIGH);
+delay(1000);
+
+//value 2
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 3
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,HIGH);
+delay(1000);
+
+//value 4
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 5
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,HIGH);
+delay(1000);
+
+//value 6
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 7
+digitalWririte(pin2,LOW);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,HIGH);
+delay(1000);
+
+//value 8
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 9
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,HIGH);
+delay(1000);
+
+//value 10
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 11
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,LOW);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,HIGH);
+delay(1000);
+
+//value 12
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 13
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,LOW);
+digitalWririte(pin5,HIGH);
+delay(1000);
+
+//value 14
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,LOW);
+delay(1000);
+
+//value 15
+digitalWririte(pin2,HIGH);
+digitalWririte(pin3,HIGH);
+digitalWririte(pin4,HIGH);
+digitalWririte(pin5,HIGH);
+delay(1000);
+}
